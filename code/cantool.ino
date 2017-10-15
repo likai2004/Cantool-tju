@@ -6,6 +6,7 @@ char buffer[25];
 int numdata=0;
 char flag = 1;
 
+
 void setup(){
   Serial.begin(115200);
   while(Serial.read() >= 0){}
